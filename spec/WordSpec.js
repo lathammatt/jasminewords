@@ -15,8 +15,8 @@ describe ("word check", function () {
 	});
 
 	it ("return false if string has duplicate words", function(){
-			expect(duplicateCheck("This is a test string")).toBe(true);
 			expect(duplicateCheck("This is a test test string")).toBe(false);
+			expect(duplicateCheck("This is a test string")).toBe(true);
 	});
 
 	it ("should have nonalpha linter", function(){
