@@ -25,6 +25,6 @@ describe ("word check", function () {
 
 	it ("return false if any non-alphanumeric characters", function (){
 		expect(verifyAlphaNumeric("Th15 15 a t35t 5tr1n6")).toBe(true);
-		expect(verifyAlphaNumeric("Th1$ i$ @ t#s# 5tr!n6:")).toBe(false);
+		expect(verifyAlphaNumeric("Th15 15 @$%@#$% r1n6")).toBe(false);
 	});
 });
